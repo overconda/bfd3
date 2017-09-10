@@ -1,0 +1,181 @@
+/**
+	Singha Beerfinder
+ 	Copyright 2017 Boon Rawd Brewery Company Limited.
+	Author: Boon Rawd Brewery Company Limited.
+**/
+
+
+/********************************************
+Main color scheme
+*********************************************/
+h1, h2, h3, h4, h5, h6,
+.main-color,
+.login-top h1,
+.carousel-title span,
+.extra-points-num,
+.reward-item-point,
+.route-stat-col,
+.quizzes-amount .num-transition span::before,
+.reward-point .num-transition span::before,
+.point-col .num-transition span::before,
+.mins-stat-col .num-transition span::before,
+.your-pts-wrapper .num-transition span::before,
+.profile-pts .num-transition span::before,
+.result-point .num-transition span::before,
+.route-modal-status td,
+.profile-pts,
+.profile-unlocked-bases > .profile-subtitle,
+.profile-routes-completed .routes-list > .profile-subtitle,
+.profile-guardian-mins > .profile-subtitle,
+.ranking-info > span,
+.home-news-title span,
+.ranking-inside td:last-child,
+.nav-menu-desktop > ul > li ul li:hover a,
+.desktop-main-title span,
+.desktop-content-title span,
+.desktop-home-rewards .desktop-content-subtitle,
+.news-details-inside h3 a,
+.pagination li a:hover,
+.related-img + h5 a:hover,
+.route-desc h3,
+.onlocation-chal-base span,
+.onlocation-chal-name,
+.onlocation-pts-col span,
+.league-filter a:hover:after,
+.result-pts-num,
+.home-content-wrapper .result-info-num,
+.accordion-num {
+	color: #ffd503;
+}
+
+.button a,
+.login-method li a,
+#menu-bottom li.menu-active a,
+#burger.burger-close .burger-bar1,
+#burger.burger-close .burger-bar2,
+#burger.burger-close .burger-bar3,
+.mm-menu.mm-theme-dark,
+.route-list li.route-active a,
+.route-list li:active a,
+.route-list li:after,
+.route-fav,
+.base-num,
+.quiz-progress .progress-bar,
+.reward-single-pts,
+.avatar-btn,
+.profile-field,
+.profile-edit form input + label,
+.profile-edit form select + label,
+.route-modal-num span,
+.meta-unlocked figure,
+.pin-shadow,
+.nav-menu-desktop > ul > li.menu-active > a,
+.nav-menu-desktop > ul > li:hover > a,
+.desktop-more-button a span:last-child,
+.result-title,
+.league-result li:first-child,
+.how-to .full-page-wrapper,
+.how-to-details,
+.accordion-desc,
+.accordion-wrapper.accordion-active .accordion-header .accordion-box > span {
+	background-color: #ffd503;
+}
+
+.full-page-wrapper,
+.modal-content,
+.modal-terms-box,
+.border-dashed,
+.route-pts,
+.guardian-avatar > img,
+.extra-points-image img,
+.image-approved img,
+.ranking-image img,
+.on-onlocation-challenge .onlocation-avatar img,
+#account-status img {
+	border-color: #ffd503;
+}
+
+.route-filter a:after,
+.reward-filter a:after {
+	border-color: #ffd503 transparent transparent transparent;
+}
+
+.desktop-more-button a:after {
+	border-left-color: #ffd503;
+}
+
+
+/********************************************
+Main color scheme active focus
+*********************************************/
+.news-details-inside h3 a:hover {
+	color: #f3c600;
+}
+
+.button a:hover,
+.button a:active,
+.button a:focus,
+.login-method li a:hover,
+.login-method li a:active,
+.login-method li a:focus,
+.route-fav:active,
+.route-fav:focus,
+.profile-edit form input:focus + label,
+.profile-edit form input:active + label,
+.profile-edit form select:focus + label,
+.profile-edit form select:active + label,
+.desktop-more-button a:hover span:last-child {
+	background-color: #f3c600;
+}
+
+.desktop-more-button a:hover:after {
+	border-left-color: #f3c600;
+}
+
+
+/********************************************
+Main dark color scheme
+*********************************************/
+#menu-top,
+.page-title,
+.button a,
+.login-method li a,
+.notifying,
+.notifying h2,
+.route-list li a,
+#menu-bottom li.menu-active a,
+.base-num,
+.base-header h1,
+.quiz-type,
+.quiz-title,
+.reward-single-pts span,
+.avatar-btn,
+.profile-field,
+.profile-edit form input,
+.profile-edit form select,
+.route-modal-heading .profile-subtitle,
+.route-modal-num span,
+.nav-menu-desktop > ul > li.menu-active > a,
+.nav-menu-desktop > ul > li:hover > a,
+.desktop-more-button a,
+.result-title h4,
+.result-name,
+.top-base-name span,
+.result-info-name h4,
+.home-content-wrapper .league-result li:first-child .result-info-name h4,
+.home-content-wrapper .league-result li:first-child .result-list-pts span,
+.get-nearby,
+.how-to-next {
+	color: #53585f;
+}
+
+#burger .burger-bar1,
+#burger .burger-bar2,
+#burger .burger-bar3,
+.main-close span,
+.route-fav:before,
+.route-fav:after,
+.desktop-more-button a span:first-child:before,
+.desktop-more-button a span:first-child:after {
+	background-color: #53585f;
+}
